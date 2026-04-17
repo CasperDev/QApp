@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.24)
 project(QApp LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -9,6 +9,10 @@ find_package(Qt6 REQUIRED COMPONENTS Core Widgets Test)
 
 enable_testing()
 
+#add_subdirectory(app)
+#add_subdirectory(cli)
+#add_subdirectory(tests)
+#add_subdirectory(bench)
 add_subdirectory(libcore)
 add_subdirectory(App)
 add_subdirectory(cli)
