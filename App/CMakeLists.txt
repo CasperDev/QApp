@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.22)
 
 project(App VERSION 0.1 LANGUAGES CXX)
 
@@ -40,6 +40,9 @@ set_target_properties(App PROPERTIES
 )
 
 include(GNUInstallDirs)
+message("Install bin to: ${CMAKE_INSTALL_BINDIR}")
+message("Install lib to: ${CMAKE_INSTALL_LIBDIR}")
+message("Install bundle: ${BUNDLE}")
 install(TARGETS App
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}

@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.22)
 project(QApp LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+message("Using Prefix Path: ${CMAKE_PREFIX_PATH}")
+message("Env for QT: $ENV{QTDIR}")
 # Qt
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets Test)
 
