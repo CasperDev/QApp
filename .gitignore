@@ -56,3 +56,7 @@ compile_commands.json
 # build folder
 /build/*
 
+/.vs
+/out/build/debug
+/out/-1621600217/build/Qt-Debug/.cmake/api/v1/query/client-MicrosoftVS
+/out/Ubuntu-24.04/build/linux-debug
