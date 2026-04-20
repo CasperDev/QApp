@@ -1,0 +1,324 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libcore",
+					"jsonFile" : "directory-libcore-Release-e2d418513e39393cf2d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libcore",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "App",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-App-Release-1d7faf6abe6c72dd244c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "App",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "cli",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-cli-Release-ee1d506747544fad143c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "cli",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Release-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "bench",
+					"jsonFile" : "directory-bench-Release-921a23b3a245208c3b5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "bench",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QApp"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libcore",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "App",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "cli",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Libcore_add_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Libcore_benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "App::@4cec9bfdf5c218c89c51",
+					"jsonFile" : "target-App-Release-e74e375a75b2f916bed6.json",
+					"name" : "App",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "App_autogen::@4cec9bfdf5c218c89c51",
+					"jsonFile" : "target-App_autogen-Release-69c2deb75ed6a26f9643.json",
+					"name" : "App_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "App_autogen_timestamp_deps::@4cec9bfdf5c218c89c51",
+					"jsonFile" : "target-App_autogen_timestamp_deps-Release-a273b34c030b7f3a0f6b.json",
+					"name" : "App_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Libcore_add_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-Libcore_add_test-Release-09ab94667e692c28aacf.json",
+					"name" : "Libcore_add_test",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Libcore_add_test_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-Libcore_add_test_autogen-Release-29b71989a17c03bd050f.json",
+					"name" : "Libcore_add_test_autogen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Libcore_add_test_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-Libcore_add_test_autogen_timestamp_deps-Release-72b81e1cb17765589469.json",
+					"name" : "Libcore_add_test_autogen_timestamp_deps",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Libcore_benchmark::@6768a448b85562cd4f0b",
+					"jsonFile" : "target-Libcore_benchmark-Release-840a0862c592413d03a4.json",
+					"name" : "Libcore_benchmark",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Libcore_benchmark_autogen::@6768a448b85562cd4f0b",
+					"jsonFile" : "target-Libcore_benchmark_autogen-Release-3e815c90e5f3e7db7e8f.json",
+					"name" : "Libcore_benchmark_autogen",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Libcore_benchmark_autogen_timestamp_deps::@6768a448b85562cd4f0b",
+					"jsonFile" : "target-Libcore_benchmark_autogen_timestamp_deps-Release-b764be8dd3f4a4a088e0.json",
+					"name" : "Libcore_benchmark_autogen_timestamp_deps",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cli::@434c77fc11d56e0cadb1",
+					"jsonFile" : "target-cli-Release-5f7188cd369962ea8f97.json",
+					"name" : "cli",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cli_autogen::@434c77fc11d56e0cadb1",
+					"jsonFile" : "target-cli_autogen-Release-d1551140d8b1d00446ac.json",
+					"name" : "cli_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cli_autogen_timestamp_deps::@434c77fc11d56e0cadb1",
+					"jsonFile" : "target-cli_autogen_timestamp_deps-Release-38ef807fd99033643bf5.json",
+					"name" : "cli_autogen_timestamp_deps",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libcore::@56eb37ee6ae525d60727",
+					"jsonFile" : "target-libcore-Release-a0e9c192cd6ee7c31b60.json",
+					"name" : "libcore",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libcore_autogen::@56eb37ee6ae525d60727",
+					"jsonFile" : "target-libcore_autogen-Release-c68565d2cc0fdcc7bd6c.json",
+					"name" : "libcore_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libcore_autogen_timestamp_deps::@56eb37ee6ae525d60727",
+					"jsonFile" : "target-libcore_autogen_timestamp_deps-Release-318415d2514062afae1d.json",
+					"name" : "libcore_autogen_timestamp_deps",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ab/.vs/QApp/out/build/linux-release",
+		"source" : "/home/ab/.vs/QApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

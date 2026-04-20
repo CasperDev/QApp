@@ -1,0 +1,64 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"App/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "libcore::@56eb37ee6ae525d60727"
+		}
+	],
+	"id" : "App_autogen_timestamp_deps::@4cec9bfdf5c218c89c51",
+	"isGeneratorProvided" : true,
+	"name" : "App_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "App",
+		"source" : "App"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/linux-release/App/CMakeFiles/App_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/linux-release/App/CMakeFiles/App_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
